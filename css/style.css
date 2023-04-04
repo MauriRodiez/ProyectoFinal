@@ -454,6 +454,7 @@ input[type="submit"]:hover{
     font-size: 0.78125rem;
     margin-right: 132px;
 }
+
 /* Media Queries - Responsive - Mobile (Max: 480px) */
 
 @media screen and (max-width: 480px) {
@@ -495,7 +496,7 @@ input[type="submit"]:hover{
     margin-top: 80px;
     width: 80vw;
 }
- 
+
 /* Seccion Pros*/
 
 .highlight-pro{
@@ -513,12 +514,112 @@ input[type="submit"]:hover{
     width: 90%;
 }
 
+.container-pros{
+    background-color: #fff;
+    padding: 0;
+    justify-content: flex-end;
+    margin: 70px 0 50px;
+}
 .box{
-    width: 100%;
+    width: 90%;
 }
 
 .number-title{
     background: rgba(139, 72, 191, 0.3);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;;
+    padding: 9px 0;
+}
+
+/* Seccion Best */
+
+.best-container{
+    margin: 0 0 70px;
+}
+
+.best-title{
+    margin-bottom: 80px;
+}
+
+.container-article{
+    margin: 20px 0;
+}
+
+.player:nth-child(2n+1){
+    display: none;
+}
+
+/* Anterior al footer */
+
+.access{
+    background-color: var(--skyblue);
+    flex-direction: column;    
+    justify-content: space-evenly;
+    height: 366px;
+}
+
+.access-title{
+    text-align: center;
+    width: 70%;
+}
+
+.access-title span{
+    display: block;
+}
+
+.btn-go{
+    color: #fff;
+    background-color: #232C50;
+}
+
+/* Footer */
+
+footer{
+    height: 560px;
+}
+
+.options-foot{
+    flex-direction: column;
+    gap: 50px;
+}
+
+.update-mail{
+    align-self: center;
+    order: -1;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.nav-options{
+    width: 80%;
+}
+
+.first-nav{
+    gap: 1.46125rem;
+}
+
+.second-nav{
+    gap: 1rem;
+}
+
+.image-sportit{
+    align-items: center;
+    order: 1;
+    width: 100%;
+}
+
+.social-nav{
+    gap: 70px; 
+    order: -1;
+    margin-bottom: 50px;
+}
+
+input[type="email"]{
+    width: 80%;
+}
+.txt-legal{
+    align-self: center;
+    margin: 40px 0;
 }
 
 }

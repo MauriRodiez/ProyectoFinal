@@ -47,10 +47,12 @@ body{
     font-style:normal;
     font-weight: 500;
     text-decoration: none;
+    transition: all 0.3s linear;
 }
 
 .main-btn:hover{
     color: rgba(36, 46, 82, 0.6);
+    border-bottom: var(--violet-color) solid 1px;
 }
 
 .btn-contacto{
@@ -66,12 +68,14 @@ body{
     line-height: 1.204rem;
     padding: 12px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;   
+    transition: background-color 0.3s linear; 
     width: 134px;
 }
 
 .btn-contacto:hover{
     background: rgba(139, 72, 191, 0.7);
+    
 }
 
 /* Main */
@@ -131,6 +135,7 @@ body{
     padding: 12px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s linear;
     width: 134px;
 }
 
@@ -282,6 +287,7 @@ body{
     padding: 12px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s linear;
     width: 134px;
 }
 
@@ -322,6 +328,7 @@ body{
     padding: 12px;
     text-align: center;
     text-decoration: none;
+    transition: all 0.3s linear;
     width: 134px;
 }
 
@@ -367,10 +374,15 @@ footer{
 .social-nav li a{
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .social-nav li a:hover{
     color: #8B48BF;
+}
+
+.social-nav li:hover{
+    transform: scale(2, 2);
 }
 
 .nav-options{
@@ -396,10 +408,12 @@ footer{
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.3s linear;
 }
 
 .btn-foot:hover{
     color: #ccc;
+    border-bottom: var(--violet-color) solid 1px;
 }
 
 .second-nav{
@@ -449,11 +463,20 @@ input[type="submit"]{
     padding: 12px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 0.3s linear;
     width: 63px;
 }
 
 input[type="submit"]:hover{
     background: rgba(219, 174, 255, 0.7);
+}
+
+input[type="email"]:valid{
+    border: green solid 1px;
+}
+
+input[type="email"]:invalid{
+    border: red solid 1px;
 }
 
 .txt-legal{
